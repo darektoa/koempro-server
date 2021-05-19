@@ -1,12 +1,8 @@
 ---
 application:
   name: "koempro-server"
-  project: "Koempro Api"
+  project: "koempro"
   organization: "QoveryCommunity"
-databases:
-- type: "MYSQL"
-  name: "freedbtech_Koempro"
-  version: "8"
 routers:
 - name: "main-koempro-server"
   routes:
